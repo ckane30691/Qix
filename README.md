@@ -24,6 +24,7 @@ This app will consist of a single screen with the game canvas, the game title, t
 ## Architecture & Technologies
 This project will be implemented with the following technologies:
 * Vanilla JS for overall structure and game logic
+* Keymaster JS a micro library for defining and dispatching keyboard shortcuts in web applications
 * `HTML5 Canvas` for DOM manipulation & rendering
 * Webpack to bundle and serve various scripts
 

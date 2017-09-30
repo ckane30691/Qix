@@ -1,0 +1,26 @@
+{
+  "name": "qix",
+  "version": "1.0.0",
+  "description": "This is a take on Qix (pronounced \"kicks\"), which is an arcade game released by Taito America Corporation in 1981. The objective of Qix is to fence off, or claim, a supermajority of the playfield.",
+  "main": "index.js",
+  "dependencies": {
+    "webpack": "^3.6.0"
+  },
+  "scripts": {
+    "webpack": "webpack --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ckane30691/Qix.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ckane30691/Qix/issues"
+  },
+  "homepage": "https://github.com/ckane30691/Qix#readme",
+  "dependencies": {
+    "webpack": "^3.6.0"
+  }
+}
