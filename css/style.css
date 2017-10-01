@@ -1,10 +1,14 @@
 body {
 	font-family: 'Russo One', sans-serif;
 	text-align: center;
-	background-image: url('https://s3-us-west-1.amazonaws.com/qix/space-ship.jpg')
+	background-image: url('https://s3-us-west-1.amazonaws.com/qix/space-ship.jpg');
 }
 
 h1 {
 	font-size: 3.5em;
 	color: #f71b3c;
+}
+
+canvas {
+	margin-bottom: 95px;
 }
