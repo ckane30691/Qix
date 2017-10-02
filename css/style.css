@@ -11,6 +11,7 @@ h1 {
 
 canvas {
 	margin-bottom: 95px;
+	/*border-radius: 10em;*/
 }
 
 #boarder {
@@ -18,6 +19,7 @@ canvas {
 	background-clip: content-box;
 	box-shadow: inset 0 0 0 50px rgba(0, 0, 0, .5);
 	padding: 50px;
+	/*border-radius: 10em;*/
 	height: 600px;
 	width: 1000px;
 	margin: auto;
