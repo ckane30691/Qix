@@ -19,7 +19,7 @@ The game will also include:
 
 ## Wireframes
 This app will consist of a single screen with the game canvas, the game title, the explanation on the game controls and nav links to the Github repo, my LinkedIn, and the About modal.
-![](qix.png)
+![](wireframe.png)
 
 ## Architecture & Technologies
 This project will be implemented with the following technologies:
@@ -31,15 +31,13 @@ This project will be implemented with the following technologies:
 
 This project will have the following scripts:
 
-`board.js.js` - This script will handle the logic for when players capture parts of the board
-
 `moving_object.js` - This script will hold the parent class that all moving objects in the game inherit from
 
 `qix.js` - Sort of like my entry file if this were a react app
 
 `enemies.js`- This script will hold all the logic for enemies
 
-`ship.js` - This script will hold all the logic for the ship the player controls
+`ship.js` - This script will hold all the logic for the ship
 
 `game.js` - This script will hold all of the game logic and rules for when a ship hits the edge of the canvas etc.
 
@@ -47,7 +45,9 @@ This project will have the following scripts:
 
 `util.js` - This script will handle vectors
 
-`ship_line.js` - This script will hold all the logic for the line drawn by the ship when the player presses the draw key
+`ship_line.js` - This script will hold the definition for the `ShipLine` objects drawn by the ship when the player presses the draw key
+
+`capture.js` - This script will hold the definition for the capture objects that are created when a player completes a ship line
 
 ## Implementation Timeline
 #### Over the weekend
