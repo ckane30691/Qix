@@ -1,12 +1,45 @@
 body {
 	font-family: 'Russo One', sans-serif;
 	text-align: center;
-	background-image: url('https://s3-us-west-1.amazonaws.com/qix/space-ship.jpg');
+	background-image: url('https://s3-us-west-1.amazonaws.com/qix/circuit_board.jpg');
+}
+
+button {
+	font-family: 'Russo One', sans-serif;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	position: absolute;
+  font-size: .8em;
+  font-weight: 200;
+	border-radius: .2em;
+	text-align: center;
+  border: 1px solid #bfbfbf;
+	padding: 15px;
+	border-bottom-width: 2px;
+	border-bottom-color: rgba(0,0,0,0.15);
+}
+
+img {
+	width: 60%;
+	height: 60%;
 }
 
 h1 {
 	font-size: 3.5em;
 	color: #f71b3c;
+}
+
+h2 {
+	font-size: 2em;
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+
+p {
+	margin-top: 15px;
+
+	margin-bottom: 70px;
 }
 
 canvas {
@@ -17,7 +50,7 @@ canvas {
 #boarder {
 	box-sizing: border-box;
 	background-clip: content-box;
-	box-shadow: inset 0 0 0 50px rgba(0, 0, 0, .5);
+	box-shadow: inset 0 0 0 50px rgba(17, 17, 17, 1);
 	padding: 50px;
 	/*border-radius: 10em;*/
 	height: 600px;
@@ -26,4 +59,48 @@ canvas {
 	margin-top: -695px;
 	position: relative;
 	z-index: 1;
+}
+
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
+}
+
+.modal-dialog {
+	position: relative;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+	border-radius: .2em;
+}
+
+/* The Close Button */
+.closeBtn {
+	background-color: rgba(17, 17, 17, 1);
+  color: #fff;
+
+	top: 20px;
+	right: 130px;
+}
+
+.closeBtn:hover,
+.closeBtn:focus {
+    color: #00f6fd;
+    text-decoration: none;
+    cursor: pointer;
 }

@@ -2,6 +2,7 @@
   <head>
     <title>QIX</title>
 		<link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 		<link rel="stylesheet" href="css/style.css">
   </head>
 
@@ -9,7 +10,35 @@
 		<h1>QIX</h1>
     <canvas></canvas>
     <div id="boarder"></div>
+    <!-- Trigger/Open The Modal -->
+  <button class="openBtn">Open Modal</button>
 
+  <!-- Modal -->
+  	<div class="modal fade text-black" id="aboutModal" tabindex="-1" role="dialog" aria-labelledby="about-title" aria-hidden="true">
+  	  <div class="modal-dialog">
+  	    <div class="modal-content">
+  	      <div class="modal-header">
+  	        <h2>Qix</h2>
+  	      </div>
+  	      <div>
+  	        <img class="img-responsive center-block"
+              src="https://s3-us-west-1.amazonaws.com/qix/QIX+-+Google+Chrome+10_4_2017+10_23_25+PM.png"
+              alt="about image">
+            <p>
+            This is a take on Qix (pronounced "kicks"), an arcade
+            game released by Taito America Corporation in 1981.
+            The objective of Qix is to fence off, or claim, a supermajority
+            of the playfield.
+            </p>
+  	      </div>
+  	      <div class="modal-footer">
+  	        <button type="button" class="closeBtn">Exit</button>
+  	      </div>
+  	    </div>
+  	  </div>
+  	</div>
+
+  </div>
     <script type="application/javascript" src="vendor/keymaster.js"></script>
     <script type="application/javascript" src="lib/bundle.js"></script>
   </body>
