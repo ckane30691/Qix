@@ -18,6 +18,7 @@ button {
 	padding: 15px;
 	border-bottom-width: 2px;
 	border-bottom-color: rgba(0,0,0,0.15);
+	cursor: pointer;
 }
 
 img {
@@ -37,9 +38,10 @@ h2 {
 }
 
 p {
-	margin-top: 15px;
-
-	margin-bottom: 70px;
+	margin-top: 25px;
+	padding-right: 80px;
+	padding-left: 80px;
+	margin-bottom: 15px;
 }
 
 canvas {
@@ -92,15 +94,86 @@ canvas {
 /* The Close Button */
 .closeBtn {
 	background-color: rgba(17, 17, 17, 1);
-  color: #fff;
+  /*color: #fff;*/
+	color: #fff200;
 
 	top: 20px;
 	right: 130px;
 }
 
+.openBtn {
+	top: 190px;
+	left: 30px;
+	background-color: #fff;
+	border: none;
+	/*color: #fff;*/
+}
+
 .closeBtn:hover,
 .closeBtn:focus {
-    color: #00f6fd;
+
+		color: #00f6fd;
     text-decoration: none;
     cursor: pointer;
+}
+
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 300px;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: black;
+  font-weight: bold;
+  font-size: 1.5em;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 280px;
+}
+
+.prev {
+	border-radius: 3px 0 0 3px;
+	left: 280px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+	color: #fff200;
+}
+
+.caption-container {
+  text-align: center;
+  padding: 2px 16px;
+  color: white;
+}
+
+img.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.3s
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
 }

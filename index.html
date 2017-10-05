@@ -10,36 +10,75 @@
 		<h1>QIX</h1>
     <canvas></canvas>
     <div id="boarder"></div>
-    <!-- Trigger/Open The Modal -->
-  <button class="openBtn">Open Modal</button>
+    <script type="application/javascript" src="vendor/keymaster.js"></script>
+    <script type="application/javascript" src="lib/bundle.js"></script>
 
-  <!-- Modal -->
-  	<div class="modal fade text-black" id="aboutModal" tabindex="-1" role="dialog" aria-labelledby="about-title" aria-hidden="true">
-  	  <div class="modal-dialog">
-  	    <div class="modal-content">
-  	      <div class="modal-header">
-  	        <h2>Qix</h2>
-  	      </div>
-  	      <div>
-  	        <img class="img-responsive center-block"
-              src="https://s3-us-west-1.amazonaws.com/qix/QIX+-+Google+Chrome+10_4_2017+10_23_25+PM.png"
-              alt="about image">
+
+    <button class="openBtn">How to Play</button>
+    <div id="aboutModal" class="modal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <button type="button" class="closeBtn">Exit</button>
+
+          <div class="modal-header">
+            <h2>Qix</h2>
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">1 / 5</div>
+            <img src="https://s3-us-west-1.amazonaws.com/qix/QIX+-+Google+Chrome+10_4_2017+10_23_25+PM.png">
             <p>
             This is a take on Qix (pronounced "kicks"), an arcade
             game released by Taito America Corporation in 1981.
             The objective of Qix is to fence off, or claim, a supermajority
             of the playfield.
             </p>
-  	      </div>
-  	      <div class="modal-footer">
-  	        <button type="button" class="closeBtn">Exit</button>
-  	      </div>
-  	    </div>
-  	  </div>
-  	</div>
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">2 / 5</div>
+            <img src="https://s3-us-west-1.amazonaws.com/qix/QIX+-+Google+Chrome+10_4_2017+10_12_16+PM.png">
+            <p>Press the space bar to draw lines</p>
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">3 / 5</div>
+            <img src="https://s3-us-west-1.amazonaws.com/qix/QIX+-+Google+Chrome+10_4_2017+10_15_31+PM.png">
+            <p>
+              Connect your line to the edge of the board,
+              the start point of your line,
+              or existing captured areas
+            </p>
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">4 / 5</div>
+            <img src="https://s3-us-west-1.amazonaws.com/qix/QIX+-+Google+Chrome+10_4_2017+10_18_49+PM.png">
+            <p>
+              Capture 75% of the board and you win!
+            </p>
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">5 / 5</div>
+            <img src="https://s3-us-west-1.amazonaws.com/qix/QIX+-+Google+Chrome+10_4_2017+10_23_25+PM.png">
+            <p>
+              Watch for enemies though, if they hit you or the incomplete line you're drawing, it's game over.
+            </p>
+          </div>
+
+          <a class="prev">&#10094;</a>
+          <a class="next">&#10095;</a>
+
+          <div class="caption-container">
+            <p id="caption"></p>
+          </div>
+
+        </div>
+      </div>
+    </div>
 
   </div>
-    <script type="application/javascript" src="vendor/keymaster.js"></script>
-    <script type="application/javascript" src="lib/bundle.js"></script>
+
   </body>
 </html>
