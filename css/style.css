@@ -63,6 +63,42 @@ canvas {
 	z-index: 1;
 }
 
+.hidden {
+	display: none;
+}
+
+.start-button {
+	position: relative;
+	margin: auto;
+	margin-top: -395px;
+	z-index: 1;
+	background: none;
+	border: none;
+	color: #fff200;
+	font-size: 7em;
+}
+
+.mute {
+	background: none;
+	color: #fff200;
+	border: none;
+	font-size: 2em;
+	position: absolute;
+	left: 105px;
+	top: 160px;
+}
+
+.openBtn:hover,
+.openBtn:focus,
+.mute:hover,
+.mute:focus,
+.start-button:hover,
+.start-button:focus {
+		transform: scale(1.2);
+		color: #00f6fd;
+    text-decoration: none;
+    cursor: pointer;
+}
 
 .modal {
   display: none;
@@ -102,11 +138,12 @@ canvas {
 }
 
 .openBtn {
-	top: 190px;
-	left: 30px;
-	background-color: #fff;
+	top: 130px;
+	left: 5px;
+	background: none;
 	border: none;
-	/*color: #fff;*/
+	color: #fff200;
+	font-size: 1.1em;
 }
 
 .closeBtn:hover,
