@@ -19,6 +19,10 @@ This project will be implemented with the following technologies:
 * `HTML5 Canvas` for DOM manipulation & rendering
 * Webpack to bundle and serve various scripts
 
+## Spotted a bug?
+
+If you find a bug, please open an issue [here](https://github.com/ckane30691/Qix/issues).
+
 ## Plans for Future Versions
 * Give enemies AI
 * Add different enemy types
