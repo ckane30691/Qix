@@ -54,7 +54,6 @@ canvas {
 	background-clip: content-box;
 	box-shadow: inset 0 0 0 50px rgba(17, 17, 17, 1);
 	padding: 50px;
-	/*border-radius: 10em;*/
 	height: 600px;
 	width: 1000px;
 	margin: auto;
@@ -123,22 +122,18 @@ canvas {
 	position: relative;
 }
 
-/* Modal Content/Box */
 .modal-content {
   background-color: #fefefe;
-  margin: 15% auto; /* 15% from the top and centered */
+  margin: 15% auto;
   padding: 20px;
   border: 1px solid #888;
-  width: 80%; /* Could be more or less, depending on screen size */
+  width: 80%;
 	border-radius: .2em;
 }
 
-/* The Close Button */
 .closeBtn {
 	background-color: rgba(17, 17, 17, 1);
-  /*color: #fff;*/
 	color: #fff200;
-
 	top: 20px;
 	right: 130px;
 }
@@ -154,17 +149,15 @@ canvas {
 
 .closeBtn:hover,
 .closeBtn:focus {
-
-		color: #00f6fd;
-    text-decoration: none;
-    cursor: pointer;
+	color: #00f6fd;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .mySlides {
   display: none;
 }
 
-/* Next & previous buttons */
 .prev,
 .next {
   cursor: pointer;
@@ -182,7 +175,6 @@ canvas {
   -webkit-user-select: none;
 }
 
-/* Position the "next button" to the right */
 .next {
   right: 280px;
 }
