@@ -88,10 +88,16 @@ canvas {
 	top: 160px;
 }
 
+.mute.true {
+	color: #f71b3c;
+}
+
+.mute:hover {
+	transform: scale(1.2);
+}
+
 .openBtn:hover,
 .openBtn:focus,
-.mute:hover,
-.mute:focus,
 .start-button:hover,
 .start-button:focus {
 		transform: scale(1.2);
