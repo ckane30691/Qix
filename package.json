@@ -19,8 +19,5 @@
   "bugs": {
     "url": "https://github.com/ckane30691/Qix/issues"
   },
-  "homepage": "https://github.com/ckane30691/Qix#readme",
-  "dependencies": {
-    "webpack": "^3.6.0"
-  }
+  "homepage": "https://github.com/ckane30691/Qix#readme"
 }
