@@ -1,3 +1,12 @@
+// TODO
+Fix movement
+Fix track/grid
+Fix captures
+Fix sprites/enemies
+Fix music and menus
+Port to phone with cordova
+Publish to app store
+
 # Qix
 ![](docs/qix_splash.png)
 
