@@ -1,9 +1,9 @@
 // TODO
-Fix movement
-Fix track/grid
+Fix drawing
 Fix captures
 Fix sprites/enemies
 Fix music and menus
+Add levels
 Port to phone with cordova
 Publish to app store
 
