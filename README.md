@@ -1,10 +1,10 @@
 // TODO
-Fix Track
 Fix captures that start from other captures
 Fix win condition
 Fix sprites/enemies
 Fix music and menus
 Add levels
+Refactor
 Port to phone with cordova
 Publish to app store
 
