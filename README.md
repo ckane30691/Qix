@@ -1,5 +1,4 @@
 // TODO
-Fix captures that start from other captures
 Fix win condition
 Fix sprites/enemies
 Fix music and menus
