@@ -1,11 +1,15 @@
 // TODO
-Fix win condition
-Fix sprites/enemies
-Fix music and menus
-Add levels
-Refactor
-Port to phone with cordova
-Publish to app store
+* Fix win condition
+* Fix bug where ship can leave play area while drawing
+* Fix bug where track doesn't quite add/delete right
+* Fix bug where enemies spawn off grid if you wait to click Start
+* Add sprites and enemy types
+* Add Fuse
+* Fix music and menus
+* Add levels
+* Refactor and squash remaining bugs
+* Port to phone with cordova
+* Publish to app store
 
 # Qix
 
