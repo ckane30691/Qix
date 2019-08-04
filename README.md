@@ -1,6 +1,5 @@
 // TODO
 * Fix win condition
-* Fix bug where ship can leave play area while drawing
 * Fix bug where track doesn't quite add/delete right
 * Fix bug where enemies spawn off grid if you wait to click Start
 * Add sprites and enemy types
