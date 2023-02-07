@@ -1,7 +1,7 @@
 module.exports = {
-  entry: "./lib/qix.js",
+  entry: "./lib/main_menu/qix.js",
   output: {
-  	filename: "./lib/bundle.js"
+    filename: "bundle.js",
   },
-  devtool: 'source-map',
+  devtool: "source-map",
 };
